@@ -1,7 +1,9 @@
-.row {
+.row-header {
     margin: 0px auto;
     padding: 0px 0px; }
-  
+.row {
+    width: 100%;
+}
 body {
     font-size: 16px;
     color: #fff;
@@ -9,7 +11,9 @@ body {
     font-family: 'Oxygen', sans-serif;
     z-index: 0;
 }
-
+.setting {
+    margin-left: 5em;
+}
 .navbar-dark {
     background-color: #f0aa12;
 }
@@ -37,7 +41,13 @@ body {
     vertical-align: middle;
 }
 
-
+.nav-link {
+    color: #61122f !important;
+    font-size: 18px !important;
+}
+.nav-link:hover {
+    color: #fff  !important;
+} 
 
 #nav-list {
     margin-top:0px ;
